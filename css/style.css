@@ -1,0 +1,79 @@
+:root {
+    --main-color: #271A1A;
+    --second-color: #563333;
+  }
+
+
+header {
+    height:100vh;
+    min-height:400px;
+    background-size:cover;
+    background-image:url('/image/Rectangle9.png');
+    background-position: center;
+}
+
+.bg-color{
+    background-color: #271A1A;  
+}
+.bg-second{
+    background-color: #563333;  
+}
+.text{
+    color: white;
+}
+
+.nav-link{
+    color: white;
+}
+.nav-link .active{
+    color: blue;
+}
+
+
+.hidden-spacer {
+    height: 56px
+}
+
+.content {
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    }
+
+.btn-color{
+    background-color: #563333;
+    color: white;
+    border-radius: 15px;
+}
+
+.btn-color:hover{
+    background-color: #563333;
+    color: white;
+    border-radius: 15px;
+}
+
+@media only screen and (min-width: 600px) {
+    .card{
+       
+        height: 22rem;
+        /* margin: 0 auto; */
+        justify-content: center;
+      
+      }
+  }
+
+  .card{
+    max-height: 22rem;
+    margin: auto;
+    justify-content: center;
+}
+
+.card1 {
+    background-color: #563333;
+    color: white;
+}
+.card2 {
+    background-color: #ffc107;
+    /* color: white; */
+}
