@@ -7,6 +7,7 @@
   html {
   
     -webkit-appearance : none;
+    overflow-x: hidden;
 }
 
 
@@ -58,11 +59,11 @@ background: linear-gradient(to right, #5a3e3e, #271A1A); /* W3C, IE 10+/ Edge, F
 }
 
 
-/* .hidden-spacer {
+.hidden-spacer {
     height: 56px;
     width: auto;
     
-} */
+}
 section{
   width: 100%;
 }
@@ -70,8 +71,11 @@ section{
 .content {
     position: absolute;
     top: 50%;
+    margin: 0 auto;
+    justify-content: center;
+    /* top: 50%;
     left:50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%); */
     }
 
 .btn-color{
@@ -86,22 +90,7 @@ section{
     border-radius: 15px;
 }
 
-@media only screen and (min-width: 600px) {
-    .card1{
-       
-        height: 22rem;
-        /* margin: 0 auto; */
-        justify-content: center;
-      
-      }
-    .card2{
-       
-        height: 22rem;
-        /* margin: 0 auto; */
-        justify-content: center;
-      
-      }
-  }
+
 
   /* .card{
     max-height: 22rem;
@@ -170,3 +159,31 @@ section{
   
   
   
+
+  /* resposive */
+
+  @media only screen and (min-width: 600px) {
+    .card1{
+       
+        height: 22rem;
+        /* margin: 0 auto; */
+        justify-content: center;
+      
+      }
+    .card2{
+       
+        height: 22rem;
+        /* margin: 0 auto; */
+        justify-content: center;
+      
+      }
+
+      .content {
+        position: absolute;
+        top: 50%;
+        left:50%;
+        transform: translate(-50%,-50%);
+        }
+
+
+  }
