@@ -4,6 +4,22 @@
   }
 
 
+  html {
+    /* position: fixed; */
+    overflow: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+body {
+    height: 100%;
+    margin: 0;
+    overflow: auto;
+    
+}
+
+
 header {
     height:100vh;
     min-height:400px;
@@ -38,7 +54,12 @@ background: linear-gradient(to right, #5a3e3e, #271A1A); /* W3C, IE 10+/ Edge, F
 
 
 .hidden-spacer {
-    height: 56px
+    height: 56px;
+    width: auto;
+    
+}
+section{
+  width: 100%;
 }
 
 .content {
@@ -141,7 +162,6 @@ background: linear-gradient(to right, #5a3e3e, #271A1A); /* W3C, IE 10+/ Edge, F
     width: 100%;
     height: 100%;
   }
-
   
   
   
