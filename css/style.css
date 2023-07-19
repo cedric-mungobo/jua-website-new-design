@@ -10,6 +10,19 @@
     overflow-x: hidden;
 }
 
+body {
+  font-family: "Open Sans", sans-serif;
+  background: rgb(15, 3, 3);
+  margin: 0;
+  padding: 0;
+}
+
+
+.bg{
+  background-color: rgb(15, 3, 3);
+ 
+}
+
 
 
 
@@ -48,14 +61,14 @@ background: linear-gradient(to right, #5a3e3e, #271A1A); /* W3C, IE 10+/ Edge, F
     background-color: #563333;  
 }
 .text{
-    color: white;
+    color: yellow;
 }
 
 .nav-link{
-    color: white;
+    color: yellow;
 }
 .nav-link .active{
-    color: blue;
+    color: white;
 }
 
 
@@ -99,12 +112,12 @@ section{
 
 .card1 {
     background-color: #563333;
-    color: white;
+    color: yellow;
     margin: auto;
     justify-content: center;
 }
 .card2 {
-    background-color: #ffc107;
+    background-color: yellow;
     margin: auto;
     justify-content: center;
     /* color: white; */
@@ -155,6 +168,19 @@ section{
     width: 100%;
     height: 100%;
   }
+
+  
+   .icon img {
+    margin: 0 auto;
+    width: 80px;
+    height: 80px;
+    display: flex;
+  
+    align-items: center;
+    justify-content: center;
+    transition: ease-in-out 0.3s;
+    position: relative;
+}
   
   
   
@@ -164,14 +190,14 @@ section{
   @media only screen and (min-width: 600px) {
     .card1{
        
-        height: 22rem;
+        height: 25rem;
         /* margin: 0 auto; */
         justify-content: center;
       
       }
     .card2{
        
-        height: 22rem;
+        height: 25rem;
         /* margin: 0 auto; */
         justify-content: center;
       
