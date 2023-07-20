@@ -152,9 +152,9 @@
 
 
 
-    <div class="container pt-5">
+    <div class=" container pt-5 ">
 
-        <section class="service text " id="service">
+        <section class=" container service text " id="service">
 
             <div class="heading mb-4 text-center">
                 <h1 class="">Nos services </h1>
@@ -341,9 +341,9 @@
         </section>
 
 
-        <section class="admin text py-4">
+        <section class="admin text py-5">
 
-            <div class="row">
+            <div class="row py-5">
                 <div class="col-md-6">
                     <h1>
                         ADMIN BUSINESS
@@ -373,40 +373,12 @@
     </div>
     <!--container-->
 
-    <section class="newslatter bg-color text shadow p-4">
 
-        <div class="row">
-            <div class="col-md-6">
-                <picture>
-                    <source srcset="./image/newslatter.png" type="image/png">
-                    <img src="./image/newslatter.png" class="img-fluid" alt="jua ya afrika">
-                </picture>
-            </div>
-            <div class="col-md-6 text-center p-md-5">
-                <h4 class="mt-md-5">Rejoignez la famille Juayaafrika ! Le meilleur moyen de garder contact et d'être au
-                    courant de
-                    nos offres et bons plans.</h4>
-
-                <h4> <strong> Abonnez-vous à notre newsletter</strong></h4>
-                <p>Disponible en exclusivité sur Jua ya afrikas</p>
-
-                <form action="" method="post">
-                    <div class="d-flex">
-                        <input type="email" name="" class="form-control rounded-4 mx-2"
-                            placeholder="votre adresse email" id="">
-                        <button type="submit" class="btn btn-color">S'abonné</button>
-                    </div>
-                </form>
-            </div>
-        </div>
-
-    </section>
-
-    <section class="bg-second text    py-6">
-        <div class="container mb-5 mb-md-6">
+    <section class="bg-color text    py-6">
+        <div class="container mb-5 mb-md-6 py-4">
             <div class="row justify-content-md-center">
                 <div class="col-12 col-md-10 col-lg-8 col-xl-7 col-xxl-6 text-center">
-                    <h1 class="mb-4 display-5">Ils nous ont fait confiance</h1>
+                    <h1 class="mb-4  text-uppercase">Ils nous ont fait confiance</h1>
                  
                     <p class=" mb-4 mb-md-5">
                         Depuis 2020, ils nous font confiance et nous mettons nos compétences et notre savoir-faire à
@@ -448,6 +420,34 @@
         </div>
     </section>
 
+    <section class="newslatter bg-color text shadow-lg p-4">
+
+        <div class="row">
+            <div class="col-md-6">
+                <picture>
+                    <source srcset="./image/newslatter.png" type="image/png">
+                    <img src="./image/newslatter.png" class="img-fluid" alt="jua ya afrika">
+                </picture>
+            </div>
+            <div class="col-md-6 text-center p-md-5">
+                <h4 class="mt-md-5">Rejoignez la famille Juayaafrika ! Le meilleur moyen de garder contact et d'être au
+                    courant de
+                    nos offres et bons plans.</h4>
+
+                <h4> <strong> Abonnez-vous à notre newsletter</strong></h4>
+                <p>Disponible en exclusivité sur Jua ya afrikas</p>
+
+                <form action="" method="post">
+                    <div class="d-flex">
+                        <input type="email" name="" class="form-control rounded-4 mx-2"
+                            placeholder="votre adresse email" id="">
+                        <button type="submit" class="btn btn-color">S'abonné</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+    </section>
 
 
 
@@ -796,8 +796,13 @@
         <!-- Copyright -->
     </footer>
 
-    <script>
-        AOS.init();
+    <script>  
+        AOS.init(
+           {
+               delay: 300,
+
+           } 
+        );
       </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"

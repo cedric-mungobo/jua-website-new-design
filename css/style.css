@@ -23,10 +23,6 @@ body {
  
 }
 
-
-
-
-
 header {
     /* height:100vh;
     min-height:400px;
@@ -58,7 +54,7 @@ background: linear-gradient(to right, #5a3e3e, #271A1A); /* W3C, IE 10+/ Edge, F
     background-color: #271A1A;  
 }
 .bg-second{
-    background-color: #563333;  
+  background-color: rgb(27, 27, 27); 
 }
 .text{
     color: yellow;
@@ -111,13 +107,15 @@ section{
 } */
 
 .card1 {
-    background-color: #563333;
+    background-color: rgb(27, 27, 27);
+    box-shadow: 0px 5px 90px 0px rgba(41, 18, 36, 0.05);
     color: yellow;
     margin: auto;
     justify-content: center;
 }
 .card2 {
     background-color: yellow;
+    box-shadow: 0px 5px 90px 0px rgba(41, 18, 36, 0.05);
     margin: auto;
     justify-content: center;
     /* color: white; */
